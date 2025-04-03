@@ -1,0 +1,8 @@
+[Part Management]
+Configuration File=C:\Cadence\OrCADX_23.1\tools\Capture\Samples\BENCHACC.DBC
+[Footprint Viewer Type]
+Type=Allegro
+[Allegro Footprints]
+Dir0=C:\Cadence\OrCADX_23.1\share\pcb\pcb_lib\symbols
+[Preferences]
+ORAPPCEFSETTINGSPATH=
