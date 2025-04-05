@@ -203,3 +203,31 @@ cd Customer-Relationship-Management-with--cpp
 git status
 git add .
 git commit -m "Project added" 
+git init
+git add .
+git commit -m "Initial commit"
+dir
+cd Customer-Relationship-Management-with--cpp 
+git remote add origin https://github.com/AyaJouni/Tutoring_Center.git
+git remote add origin https://github.com/AyaJouni/AITutoring_Center.git
+git remote set-url origin https://github.com/AyaJouni/Tutoring_Center.git
+git push -u origin main
+# Pull the remote changes into your local repository
+git pull --rebase origin main
+# Then push your changes
+git push -u origin main
+git remote add origin https://github.com/AyaJouni/Afnan.git
+git checkout -b Aya
+git commit -m "Initial commit to Aya branch"
+git push origin Aya
+cd ..
+cd 
+dir
+cd client
+git remote add origin https://github.com/AyaJouni/Afnan.git
+git checkout -b Aya
+git push origin Aya
+git pull origin Aya --rebase
+git add .
+git commit -m "WIP: saving changes before rebase"
+git pull origin Aya --rebase
