@@ -1,0 +1,580 @@
+[
+  {
+    "name": "Default",
+    "type": "Template",
+    "description": "Default",
+    "categories": [
+      "$.Default"
+    ],
+    "models": [
+      {
+        "Symbols": [
+        ]
+      },
+      {
+        "Footprints": [
+        ]
+      },
+      {
+        "Datasheet": [
+          " "
+        ]
+      }
+    ],
+    "metadata": [
+      {
+        "name": "VALUE",
+        "value": "",
+        "description": "Default",
+        "schematic_annotate": "TRUE",
+        "schematic_visibility": "TRUE",
+        "mandatory": "TRUE",
+        "schematic_editable": "TRUE"
+      }
+    ]
+  },
+  {
+    "name": "Resistor",
+    "type": "Template",
+    "description": "Resistor",
+    "categories": [
+      "$.ChipResistor"
+    ],
+    "models": [
+      {
+        "Symbols": [
+		  {
+			"symbol_name": "Resistor",
+			"library_name": "schematic_data/libraries/TEMPLATES"
+		  }
+        ]
+      },
+      {
+        "Footprints": [
+          "layout_data/libraries/smdres"
+        ]
+      },
+      {
+        "Datasheet": [
+          " "
+        ]
+      }
+    ],
+    "metadata": [
+      {
+        "name": "VALUE",
+        "value": "1K",
+        "description": "Resistance Value at 25 C",
+        "schematic_annotate": "TRUE",
+        "schematic_visibility": "TRUE",
+        "mandatory": "TRUE",
+        "schematic_editable": "TRUE"
+      },
+      {
+        "name": "MATERIAL",
+        "value": "",
+        "description": "Material Type",
+        "schematic_annotate": "FALSE",
+        "schematic_visibility": "FALSE",
+        "mandatory": "FALSE",
+        "schematic_editable": "FALSE"
+      },
+      {
+        "name": "POWER",
+        "value": "0.25W",
+        "description": "Rated Power Dissipation at 25 C",
+        "schematic_annotate": "FALSE",
+        "schematic_visibility": "FALSE",
+        "mandatory": "FALSE",
+        "schematic_editable": "FALSE"
+      },
+      {
+        "name": "MTBF",
+        "value": "",
+        "description": "Mean Time Between Failures",
+        "schematic_annotate": "FALSE",
+        "schematic_visibility": "FALSE",
+        "mandatory": "FALSE",
+        "schematic_editable": "FALSE"
+      },
+      {
+        "name": "MAX_TEMPERATURE",
+        "value": "+150C",
+        "description": "Maximum operating temperature",
+        "schematic_annotate": "FALSE",
+        "schematic_visibility": "FALSE",
+        "mandatory": "FALSE",
+        "schematic_editable": "FALSE"
+      },
+      {
+        "name": "MIN_TEMPERATURE",
+        "value": "-55C",
+        "description": "Minimum operating temperature",
+        "schematic_annotate": "FALSE",
+        "schematic_visibility": "FALSE",
+        "mandatory": "FALSE",
+        "schematic_editable": "FALSE"
+      },
+      {
+        "name": "TC",
+        "value": "5ppm",
+        "description": "Temperature Coefficient",
+        "schematic_annotate": "FALSE",
+        "schematic_visibility": "FALSE",
+        "mandatory": "FALSE",
+        "schematic_editable": "FALSE"
+      },
+      {
+        "name": "TOL",
+        "value": "5",
+        "description": "Tolerance",
+        "schematic_annotate": "FALSE",
+        "schematic_visibility": "FALSE",
+        "mandatory": "FALSE",
+        "schematic_editable": "FALSE"
+      },
+      {
+        "name": "MOUNTING_TYPE",
+        "value": "Surface_Mount",
+        "description": "Component Mounting Method",
+        "schematic_annotate": "FALSE",
+        "schematic_visibility": "FALSE",
+        "mandatory": "FALSE",
+        "schematic_editable": "TRUE"
+      },
+      {
+        "name": "CLASS",
+        "value": "DISCRETE",
+        "description": "Part Classification",
+        "schematic_annotate": "FALSE",
+        "schematic_visibility": "FALSE",
+        "mandatory": "TRUE",
+        "schematic_editable": "TRUE"
+      }
+    ]
+  },
+  {
+	"name": "Capacitor",
+	"type": "Template",
+	"description": "Capacitor",
+	"categories": [
+	  "$.Non_Electrolytic"
+	],
+	"models": [
+	  {
+		"Symbols": [
+		  {
+			"symbol_name": "Capacitor",
+			"library_name": "schematic_data/libraries/TEMPLATES"
+		  }
+		]
+	  },
+	  {
+		"Footprints": [
+		  "layout_data/libraries/smdcap"
+		]
+	  },
+	  {
+		"Datasheet": [
+		  " "
+		]
+	  }
+	],
+	"metadata": [
+	  {
+		"name": "VALUE",
+		"value": "1uF",
+		"description": "Capacitance Value",
+		"schematic_annotate": "TRUE",
+		"schematic_visibility": "TRUE",
+		"mandatory": "TRUE",
+		"schematic_editable": "FALSE"
+	  },
+	  {
+		"name": "MATERIAL",
+		"value": "Electrolytic",
+		"description": "Material Type",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "VOLTAGE",
+		"value": "12V",
+		"description": "Rated Operating Voltage",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "TRUE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "MTBF",
+		"value": "",
+		"description": "Mean Time Between Failures",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "MAX_TEMPERATURE",
+		"value": "150C",
+		"description": "Maximum Operating Temperature",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "MIN_TEMPERATURE",
+		"value": "-55C",
+		"description": "Minimum Operating Temperature",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "TC",
+		"value": "5ppm",
+		"description": "Temperature Coefficient",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "TOL",
+		"value": "10",
+		"description": "Tolerance ",
+		"schematic_annotate": "TRUE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "MOUNTING_TYPE",
+		"value": "Surface_Mount",
+		"description": "Component Mounting Method",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "CLASS",
+		"value": "DISCRETE",
+		"description": "Part Classification",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "TRUE",
+		"schematic_editable": "TRUE"
+	  }
+	]
+  },
+  {
+	"name": "Polarized Capacitor",
+	"type": "Template",
+	"description": "Aluminium Electrolytic/Polymer Capacitor",
+	"categories": [
+	  "$.Polymer",
+	  "$.Aluminium"
+	],
+	"models": [
+	  {
+		"Symbols": [
+		  {
+			"symbol_name": "Capacitor",
+			"library_name": "schematic_data/libraries/TEMPLATES"
+		  }
+		]
+	  },
+	  {
+		"Footprints": [
+		  "layout_data/libraries/cap196"
+		]
+	  },
+	  {
+		"Datasheet": [
+		  " "
+		]
+	  }
+	],
+	"metadata": [
+	  {
+		"name": "VALUE",
+		"value": "1uF",
+		"description": "Capacitance Value",
+		"schematic_annotate": "TRUE",
+		"schematic_visibility": "TRUE",
+		"mandatory": "TRUE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "VOLTAGE",
+		"value": "12V",
+		"description": "Rated Operating Voltage",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "TRUE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "MTBF",
+		"value": "",
+		"description": "Mean Time Between Failures",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "MAX_TEMPERATURE",
+		"value": "+150C",
+		"description": "Maximum Operating Temperature",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "MIN_TEMPERATURE",
+		"value": "-55C",
+		"description": "Minimum Operating Temperature",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "TC",
+		"value": "5ppm",
+		"description": "Temperature Coefficient",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "TOLERANCE",
+		"value": "10",
+		"description": "Tolerance ",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "ESR",
+		"value": "2mOhm",
+		"description": "Equivalent Series Resistance",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "ESL",
+		"value": "50pH",
+		"description": "Equivalent Series Inductance",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "LF_RIPPLE_I",
+		"value": "100mAmp",
+		"description": "Ripple Current at Low Frequency",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "HF_RIPPLE_I",
+		"value": "80mAmp",
+		"description": "Ripple Current at High Frequency",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "DF",
+		"value": "10",
+		"description": "Dissipation Factor",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "LEAKAGE_CURRENT",
+		"value": "10uAmp",
+		"description": "Current Leakage ",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "IMEPEDANCE",
+		"value": "2.2mOhms",
+		"description": "Impedance",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "MOUNTING_TYPE",
+		"value": "Surface_Mount",
+		"description": "Component Mounting Method",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "FALSE",
+		"schematic_editable": "TRUE"
+	  },
+	  {
+		"name": "CLASS",
+		"value": "DISCRETE",
+		"description": "Part Classification",
+		"schematic_annotate": "FALSE",
+		"schematic_visibility": "FALSE",
+		"mandatory": "TRUE",
+		"schematic_editable": "TRUE"
+	  }
+	]
+  },
+  {
+    "name": "Standard Diode ",
+    "type": "Template",
+    "description": "General Purpose Diode",
+    "categories": [
+      "$.Standard"
+    ],
+    "models": [
+      {
+        "Symbols": [
+		  {
+			"symbol_name": "Diode",
+			"library_name": "schematic_data/libraries/TEMPLATES"
+		  }
+        ]
+      },
+      {
+        "Footprints": [
+          "layout_data/libraries/do27a"
+        ]
+      },
+      {
+        "Datasheet": [
+          " "
+        ]
+      }
+    ],
+    "metadata": [
+      {
+        "name": "POWER",
+        "value": "0.25W",
+        "description": "Rated Power Dissipation",
+        "schematic_annotate": "FALSE",
+        "schematic_visibility": "FALSE",
+        "mandatory": "FALSE",
+        "schematic_editable": "TRUE"
+      },
+      {
+        "name": "VR",
+        "value": "100V",
+        "description": "Maximum DC Reverse Voltage",
+        "schematic_annotate": "FALSE",
+        "schematic_visibility": "FALSE",
+        "mandatory": "FALSE",
+        "schematic_editable": "TRUE"
+      },
+      {
+        "name": "VF",
+        "value": "0.7V",
+        "description": "Maximum Forward Voltage Drop at Rated Forward Current",
+        "schematic_annotate": "FALSE",
+        "schematic_visibility": "FALSE",
+        "mandatory": "FALSE",
+        "schematic_editable": "TRUE"
+      },
+      {
+        "name": "IO",
+        "value": "1Amp",
+        "description": "Average Rectified Current",
+        "schematic_annotate": "FALSE",
+        "schematic_visibility": "FALSE",
+        "mandatory": "FALSE",
+        "schematic_editable": "TRUE"
+      },
+      {
+        "name": "IR",
+        "value": "1uAmp",
+        "description": "Reverse Leakage Current at Rated Forward Current",
+        "schematic_annotate": "FALSE",
+        "schematic_visibility": "FALSE",
+        "mandatory": "FALSE",
+        "schematic_editable": "TRUE"
+      },
+      {
+        "name": "CT",
+        "value": "10pF",
+        "description": "Total Capacitance at Rated Forward Voltage and Frequency",
+        "schematic_annotate": "FALSE",
+        "schematic_visibility": "FALSE",
+        "mandatory": "FALSE",
+        "schematic_editable": "TRUE"
+      },
+      {
+        "name": "MTBF",
+        "value": "",
+        "description": "Mean Time Between Failures",
+        "schematic_annotate": "FALSE",
+        "schematic_visibility": "FALSE",
+        "mandatory": "FALSE",
+        "schematic_editable": "TRUE"
+      },
+      {
+        "name": "MAX_TJ",
+        "value": "150C",
+        "description": "Maximum Operating Junction Temperature",
+        "schematic_annotate": "FALSE",
+        "schematic_visibility": "FALSE",
+        "mandatory": "FALSE",
+        "schematic_editable": "TRUE"
+      },
+      {
+        "name": "MIN_TJ",
+        "value": "-40C",
+        "description": "Minimum Operating Junction Temperature",
+        "schematic_annotate": "FALSE",
+        "schematic_visibility": "FALSE",
+        "mandatory": "FALSE",
+        "schematic_editable": "TRUE"
+      },
+      {
+        "name": "MOUNTING_TYPE",
+        "value": "Through_Hole",
+        "description": "Component Mounting Method",
+        "schematic_annotate": "FALSE",
+        "schematic_visibility": "FALSE",
+        "mandatory": "FALSE",
+        "schematic_editable": "TRUE"
+      },
+      {
+        "name": "CLASS",
+        "value": "DISCRETE",
+        "description": "Part Classification",
+        "schematic_annotate": "FALSE",
+        "schematic_visibility": "FALSE",
+        "mandatory": "TRUE",
+        "schematic_editable": "TRUE"
+      }
+    ]
+  }
+]

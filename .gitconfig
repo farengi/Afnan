@@ -1,0 +1,5 @@
+[user]
+	name = Aya Jouni
+	email = aya.jouni02@lau.edu
+[credential "https://huggingface.co"]
+	provider = generic

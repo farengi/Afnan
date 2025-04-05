@@ -1,0 +1,8 @@
+[INFO][2024:04:12-17:23:26:432] - Number of files added:47
+[INFO][2024:04:12-17:23:26:626] - Number of files deleted:0
+[INFO][2024:04:12-17:23:26:629] - Folder Path:C:/Users/Aya Jouni/AppData/Roaming/SPB_Data/cdssetup/workspace
+[INFO][2024:04:12-17:23:26:655] - Home:C:\Users\Aya Jouni\AppData\Roaming\SPB_Data
+[INFO][2024:04:12-17:23:26:656] - UserName:undefined
+[INFO][2024:04:12-17:23:26:670] - Server is running @ http://0.0.0.0:60290 at time : Fri Apr 12 2024 17:23:26 GMT+0300 (Eastern European Summer Time)
+[INFO][2024:04:12-17:23:26:680] - Port:60290 Cloud Server - https://pcb.cadence.com
+[INFO][2024:04:12-17:23:26:693] - Logging State: OFF
